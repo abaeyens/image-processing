@@ -5,6 +5,7 @@ by Arne Baeyens
 This repository contains the source code I wrote for my image-processing robot for the RoboCup Junior competition in may 2014. It uses a Raspberry Pi and Pi camera for the image recognition and a Dwengo microcontroller board to control the robot. The robot recognizes a line and does object tracking at the same time and sends the line's position and angle over the serial port for further processing.
 About my robot: http://www.raspberrypi.org/an-image-processing-robot-for-robocup-junior/
 
+Please note that the RaspiCamCV.c file and the Makefile are made by Emil Valkov and Pierre Raufast. I only edited them slightly.
 
 ##How to compile the program:
 
