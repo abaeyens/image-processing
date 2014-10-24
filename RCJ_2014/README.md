@@ -38,6 +38,7 @@ and compile with
 Credits
 ----------------------------------------
 RaspiCam library: Emil Valkov and Pierre Raufast
+
 Object tracking: Kyle Hounslow
  - youtube.com/watch?v=bSeFrPrqZ2A
  - or the complete source code: dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp.
