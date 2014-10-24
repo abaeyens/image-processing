@@ -26,9 +26,9 @@ and compile with
 
     g++ "%f" -lopencv_highgui -lopencv_core -lopencv_legacy -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_imgproc -lpthread -lm -L/home/pi/git/raspberrypi/userland/build/lib -lmmal_core -lmmal -l mmal_util -lvcos -lbcm_host -lX11 -lXext -lrt -lstdc++ -L/home/pi/git/robidouille/raspicam_cv -lraspicamcv -I/usr/include/opencv -o "%e" -L/usr/local/lib -lwiringPi
 
- "%f" stands for the output executable and "%e" for the input c++ file. You can use the above command with the geany editor.
- For questions, please refer to the forum thread:
- http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
+You can use the above command with the geany editor, but if compiling in a terminal you have to change "%f" to the name of the output executable and "%e" to the name of the input c++ file.
+For any questions, please refer to the forum thread:
+http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
 
 4. Run the program
 ----------------------------------------
