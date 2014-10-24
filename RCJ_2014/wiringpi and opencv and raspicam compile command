@@ -2,6 +2,6 @@ g++ "%f" -lopencv_highgui -lopencv_core -lopencv_legacy -lopencv_video -lopencv_
 
 How to use:
  - geany editor: paste it in the option box for build commands.
- - command line: change "%f" to the program output name and change "%e" to the C++ file name and location.
+ - command line: change "%f" to the program output name and change "%e" to the C++ file name and path.
  For questions, please refer to the forum thread:
  http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
