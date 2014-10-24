@@ -1,3 +1,4 @@
+# I edited this makefile to make it work after the new software updates. Original by Emil Valkov (robidouille.wordpress.com).
 OBJS = objs 
 
 CFLAGS_OPENCV = -I/usr/include/opencv
