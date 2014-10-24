@@ -43,12 +43,15 @@ RaspiCam library: Emil Valkov and Pierre Raufast
 * http://www.thinkrpi.wordpress.com.
 
 Object tracking: Kyle Hounslow
-* https://www.youtube.com/watch?v=bSeFrPrqZ2A
+* https://youtube.com/watch?v=bSeFrPrqZ2A
 * or the complete source code: https://dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp.
 
+Other:
+* wiringPi library: http://wiringpi.com/ by Gordon Henderson
+* the openCV library: http:/opencv.org.
  
 More info:
 
-Forum thread: http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
+Forum thread: http://raspberrypi.org/forums/viewtopic.php?f=37&t=82151
 
-Dwengo site: http://www.dwengo.org/node/46
+Dwengo site: http://dwengo.org/node/46
