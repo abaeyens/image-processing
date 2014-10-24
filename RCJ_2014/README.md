@@ -45,5 +45,7 @@ Object tracking: Kyle Hounslow
 
  
 More info:
+
 Forum thread: http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
+
 Dwengo site: http://www.dwengo.org/node/46
