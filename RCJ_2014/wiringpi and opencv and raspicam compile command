@@ -1,2 +1,7 @@
 g++ "%f" -lopencv_highgui -lopencv_core -lopencv_legacy -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_imgproc -lpthread -lm -L/home/pi/git/raspberrypi/userland/build/lib -lmmal_core -lmmal -l mmal_util -lvcos -lbcm_host -lX11 -lXext -lrt -lstdc++ -L/home/pi/git/robidouille/raspicam_cv -lraspicamcv -I/usr/include/opencv -o "%e" -L/usr/local/lib -lwiringPi
 
+How to use:
+ - geany editor: paste it in the option box for build commands.
+ - command line: change "%f" to the program output name and change "%e" to the C++ file name and location.
+ For questions, please refer to the forum thread:
+ http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
