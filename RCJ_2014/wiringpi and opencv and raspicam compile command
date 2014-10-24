@@ -1,1 +1,2 @@
 g++ "%f" -lopencv_highgui -lopencv_core -lopencv_legacy -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_imgproc -lpthread -lm -L/home/pi/git/raspberrypi/userland/build/lib -lmmal_core -lmmal -l mmal_util -lvcos -lbcm_host -lX11 -lXext -lrt -lstdc++ -L/home/pi/git/robidouille/raspicam_cv -lraspicamcv -I/usr/include/opencv -o "%e" -L/usr/local/lib -lwiringPi
+
