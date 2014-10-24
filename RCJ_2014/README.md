@@ -39,7 +39,8 @@ It is preferable to run the program in terminal as it gives verbose output durin
 Credits
 ----------------------------------------
 RaspiCam library: Emil Valkov and Pierre Raufast
-
+* http://www.robidouille.wordpress.com
+* http://www.thinkrpi.wordpress.com.
 Object tracking: Kyle Hounslow
  - https://www.youtube.com/watch?v=bSeFrPrqZ2A
  - or the complete source code: https://dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp.
