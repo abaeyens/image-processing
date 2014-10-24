@@ -46,9 +46,9 @@ Object tracking: Kyle Hounslow
 * https://youtube.com/watch?v=bSeFrPrqZ2A
 * or the complete source code: https://dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp.
 
-Other:
+Other libraries:
 * wiringPi library: http://wiringpi.com/ by Gordon Henderson
-* the openCV library: http:/opencv.org.
+* the openCV library: http://opencv.org.
  
 More info:
 
