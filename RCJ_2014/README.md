@@ -32,8 +32,9 @@ http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
 
 4. Run the program
 ----------------------------------------
+It is preferable to run the program in terminal as it gives verbose output during running.
 
-
+    ./RCJ_2014
 
 Credits
 ----------------------------------------
