@@ -16,8 +16,8 @@ About my robot: http://www.raspberrypi.org/an-image-processing-robot-for-robocup
 ----------------------------------------
 Follow Emil Valkov's instructions in his README
 https://github.com/robidouille/robidouille/blob/master/raspicam_cv/README but replace in step 3 before running the 'make' command the following files with those in my repository:
- - RaspiCamCV.c
- - Makefile
+* `RaspiCamCV.c`
+* `Makefile`
 
 3. Compile the C++ program
 ----------------------------------------
