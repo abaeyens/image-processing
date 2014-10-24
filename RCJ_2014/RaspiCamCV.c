@@ -1,5 +1,13 @@
 /////////////////////////////////////////////////////////////
 //
+// UPDATE 2014-24-10:
+// this file is edited for 320 x 240 resolution instead of the normal 640 x 480.
+// use this file for compiling the raspicam library instead of the original file by Emil Valkov
+// as 640 x 480 is a too high resolution to run smoothly on a Raspberry Pi.
+// Emil Valkov's github repository: https://github.com/robidouille.
+//
+//
+//
 // Many source code lines are copied from RaspiVid.c
 // Copyright (c) 2012, Broadcom Europe Ltd
 // 
