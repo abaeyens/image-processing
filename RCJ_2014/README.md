@@ -33,6 +33,9 @@ http://www.raspberrypi.org/forums/viewtopic.php?f=37&t=82151
 It is preferable to run the program in terminal as it gives verbose output during running.
 
     ./RCJ_2014
+    
+To exit the program, select one of the windows and press 'q'
+
 
 Credits
 ----------------------------------------
