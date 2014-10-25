@@ -3,7 +3,7 @@ Project RCJ 2014
 by Arne Baeyens
 
 This repository contains the source code I wrote for my image-processing robot for the RoboCup Junior competition in may 2014. It uses a Raspberry Pi and Pi camera for the image recognition and a Dwengo microcontroller board to control the robot. The robot recognizes a line and does object tracking at the same time and sends the line's position and angle over the serial port for further processing.
-About my robot: http://www.raspberrypi.org/an-image-processing-robot-for-robocup-junior/
+About my robot: [raspberrypi.org/an-image-processing-robot-for-robocup-junior](http://www.raspberrypi.org/an-image-processing-robot-for-robocup-junior/).
 
 Please note that the RaspiCamCV.c file and the Makefile are made by Emil Valkov and Pierre Raufast. I only edited them slightly.
 
@@ -15,10 +15,7 @@ Please note that the RaspiCamCV.c file and the Makefile are made by Emil Valkov 
 
 2. Install the raspicam library
 ----------------------------------------
-Follow Emil Valkov's instructions in his README
-https://github.com/robidouille/robidouille/blob/master/raspicam_cv/README but replace in step 3 before running the 'make' command the following files with those in my repository:
-* `RaspiCamCV.c`
-* `Makefile`
+Follow Emil Valkov's instructions in his [README](https://github.com/robidouille/robidouille/blob/master/raspicam_cv/README) but replace in step 3 before running the 'make' command the `RaspiCamCV.c` file by that in my repository.
 
 3. Compile the C++ program
 ----------------------------------------
@@ -40,19 +37,19 @@ It is preferable to run the program in terminal as it gives verbose output durin
 Credits
 ----------------------------------------
 RaspiCam library: Emil Valkov and Pierre Raufast
-* http://www.robidouille.wordpress.com
-* http://www.thinkrpi.wordpress.com.
+* [robidouille.wordpress.com](http://www.robidouille.wordpress.com)
+* [thinkrpi.wordpress.com](http://www.thinkrpi.wordpress.com).
 
 Object tracking: Kyle Hounslow
-* https://youtube.com/watch?v=bSeFrPrqZ2A
-* or the complete source code: https://dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp.
+* [Tutorial: Real-Time Object Tracking Using OpenCV](https://youtube.com/watch?v=bSeFrPrqZ2A)
+* or the complete source code: [objectTrackingTut.cpp](https://dl.dropboxusercontent.com/u/28096936/tuts/objectTrackingTut.cpp).
 
 Other libraries:
-* wiringPi library: http://wiringpi.com/ by Gordon Henderson
-* the openCV library: http://opencv.org.
+* wiringPi library: [wiringpi.com](http://wiringpi.com/) by Gordon Henderson
+* the openCV library: [opencv.org](http://opencv.org).
  
 More info:
 
-Forum thread: http://raspberrypi.org/forums/viewtopic.php?f=37&t=82151
+Forum thread: [raspberrypi.org/forums/viewtopic.php?f=37&t=82151](http://raspberrypi.org/forums/viewtopic.php?f=37&t=82151)
 
-Dwengo site: http://dwengo.org/node/46
+Dwengo site: [dwengo.org/node/46](http://dwengo.org/node/46)
