@@ -56,3 +56,10 @@ More info:
 Forum thread: [raspberrypi.org/forums/viewtopic.php?f=37&t=82151](http://raspberrypi.org/forums/viewtopic.php?f=37&t=82151)
 
 Dwengo site: [dwengo.org/node/46](http://dwengo.org/node/46)
+
+
+
+TODO?
+-----
+* code line following algo using mmal libraries so it runs on the GPU - preferably at 90fps?
+* community efforts are greatly appreciated.
