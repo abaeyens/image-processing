@@ -18,7 +18,7 @@ Please note that the RaspiCamCV.c file and the Makefile are made by Emil Valkov 
 Follow Emil Valkov's instructions in his [README](https://github.com/robidouille/robidouille/blob/master/raspicam_cv/README) but replace in step 3 before running the 'make' command the `RaspiCamCV.c` file by the one in my repository.
 
 UPDATE 27 october 2016: there seems to be a problem with the link above.
-Please try the [newer version](https://github.com/robidouille/robidouille/tree/master/raspicam_cv) or use an older [copy of the RaspiCamCV library](https://github.com/abaeyens/robidouille/tree/master/raspicam_cv).
+Please try the [newer version](https://github.com/robidouille/robidouille/tree/master/raspicam_cv) or use an older [fork of the RaspiCamCV library](https://github.com/abaeyens/robidouille/tree/master/raspicam_cv).
 
 3. Compile the C++ program
 ----------------------------------------
