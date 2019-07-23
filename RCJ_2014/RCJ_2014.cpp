@@ -182,7 +182,8 @@ int main(int argc, const char** argv){
   createTrackbar( "V_MIN", track_2, &V_min_reg, 256 );
   createTrackbar( "V_MAX", track_2, &V_max_reg, 256 );
 
-  initSerialPort();	// Initiate the serial port.
+  // Initiate the serial port. Uncomment to enable.
+  //initSerialPort();
 
   first_scanpoint = Point(160, scan_height_reg);
 
@@ -231,16 +232,22 @@ int main(int argc, const char** argv){
     scancircle( gray_image, line_points[0], scan_radius2_reg, first_angle, 180 );
     findLine( 1 );
 
-	/* THIRD SCAN */
+    /* THIRD SCAN */
     scancircle( gray_image, line_points[0], scan_radius2_reg, lineangle(), 180 );
     findLine( 1 );
 
     P_Error=first_scanpoint.x-image.cols/2;
 
-	/* FOURTH SCAN */
+    /* FOURTH SCAN */
     scancircle( gray_image, line_points[0], scan_radius2_reg, lineangle(), 180 );
     findLine( 1 );
 
+    // Copy I error to variable for serial transmission.
+    I_Error=lineangle();
+    // Send the course errors (P_Error and I_Error over the serial port.
+    // Uncomment to enable.
+    //sendPositionData();
+	
     if(show_images==1) imshow( "camera image", image );		// Show camera view after editing.
     
     

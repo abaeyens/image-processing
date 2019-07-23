@@ -62,7 +62,6 @@ Dwengo site: [dwengo.org/node/46](http://dwengo.org/node/46)
 
 
 
-TODO?
+Questions
 -----
-* code line following algo using mmal libraries so it runs on the GPU - preferably at 90fps?
-* any community efforts are greatly appreciated.
+If you have any questions, feel free to open an issue or to send an email to 2arne.baeyens<at>gmail.com.
