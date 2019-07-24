@@ -212,7 +212,33 @@ int main(int argc, const char** argv){
 
 	if(objectFound==true && show_images==1) drawObject( green_x, green_y, image, Scalar( 0, 255, 0 ));
 
-
+    /*
+     * Regarding the following lines of code, in particular the global variables.
+     *
+     * The functions scanline (and scancircle) copy pixel values from the given image matrix
+     * and put these in the global array scandata. In the case of scanline, the copied pixel coordinates are on a line,
+     * in the case of scancircle they are positioned on part of a circle.
+     * The objective of these two functions is to make the data easier to manipulate.
+     *
+     * The function findLine reads the global array scandata (and some other global variables).
+     * It first searches the array for the signature of the path line (the line the robot has to follow).
+     * Then it converts the found array index to the position point
+     * of the intersection of the detection line (or circle) and the line the path line. It returns this point.
+     * In addition, it also writes this point to the first position of the global array linepoints.
+     *
+     * The function lineangle returns the measured angle of the line the robot has to follow.
+     * It reads the global array linepoints. It is calculated from the vector from the center of the scan circle
+     * to the intersection point of the scan circle and the path line.
+     *
+     * This process is repeated a few times. For each new circle scan,
+     * the center of the circle is the intersection point found in the previous scan.
+     * In this way, a ‘snake’ that follows the line is created.
+     *
+     * Global variables are not really necessary here.
+     * It would be better to use pointers and to pass the the address of the output array/vector as an argument.
+     *
+     */
+     
     /* ZERO SCAN */
     scan_counter=0;
     if(debug==1) debug_mode=1;
