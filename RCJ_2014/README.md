@@ -7,7 +7,14 @@ About my robot: [raspberrypi.org/an-image-processing-robot-for-robocup-junior](h
 
 Please note that the RaspiCamCV.c file and the Makefile are made by Emil Valkov and Pierre Raufast. I only edited them slightly.
 
-##How to compile the program:
+### Note (July 2019)
+- At the time when I developed this project, the Raspberry Pi camera and the Raspberry Pi in general were still very new.
+To get the camera data in OpenCV, I had to use the RaspiCamCV library. Over time, interfaces that are far easier to use where developed, in particular for Python. You might want to use those newer methods.
+- I chose to use C++ because Python becomes quite slow if pixels are accessed. If you choose to use OpenCV functions for all the heavy work (which is sufficient for almost all projects), the speed difference with C++ tends to be negligible.
+- If you are interested in this project, I highly recommend to take a look at the [the PyImageSearch site](https://www.pyimagesearch.com/). Most of its content is quite advanced, but the author has also written some great introductory articles.
+- The line following algorithm in this project was designed to handle simple situations quickly. If I were to redo the project with newer hardware, I would likely use the Hough transform.
+
+## How to compile the program:
 
 1. Install the openCV library
 ----------------------------------------
